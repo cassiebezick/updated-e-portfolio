@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+/* NAVIGATION */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1b322b;
+}
+
+.navigation a {
+  color: #ffffff;
+}
+
+.header__navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__navlinks ul {
+  display: flex;
+}
+
+.header__navlinks li {
+  padding: 20px;
+}
+
+.header__navlinks button {
+  margin: 20px;
+}
+
+.navigation__logo {
+  letter-spacing: 2px;
+}
+
+/* INTRO  */
+
+.intro {
+  padding-top: 40px;
+  background-color: #1b322b;
+  background-image: url(./images/introimage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 50vh;
+}
+
+.intro__wrapper {
+  padding: 20px;
+}
+
+.intro__text {
+  padding: 20px;
+  width: 32%;
+  color: #b1c78e;
+}
+
+.intro__text h1 {
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
+/* ABOUT ME */
+
+.aboutme {
+  padding-top: 60px;
+  background-color: #faf3e2;
+  color: #1b322b;
+}
+
+.aboutme__wrapper {
+  display: flex;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.aboutme__textintro {
+  max-width: 28%;
+}
+
+.aboutme__textintro h2 {
+  padding-bottom: 20px;
+}
+
+.aboutme__highlights {
+  display: flex;
+  padding-left: 30px;
+}
+
+.highlight {
+  padding: 30px;
+  font-size: 12px;
+}
+
+.highlight h3 {
+  font-weight: 600;
+  line-height: 2;
+}
+
+/* PROJECTS */
+
+.projects {
+  padding-top: 60px;
+  background-color: #1b322b;
+  color: #ffffff;
+}
+
+.projects a {
+  color: #b1c78e;
+}
+
+.projects__wrapper {
+  display: grid;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.projects__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+.projects__grid {
+  display: flex;
+}
+
+.projectcard {
+  width: 33%;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.projectcard ul {
+  display: flex;
+}
+
+.projectcard li {
+  padding-right: 16px;
+}
+
+.projectcard__text {
+  max-width: 70%;
+}
+
+/* SKILLS */
+
+.skills {
+  padding-top: 60px;
+  background-color: #faf3e2;
+  color: #1b322b;
+}
+
+.skills__wrapper {
+  display: grid;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.skills__grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills__wrapper h2 {
+  padding-bottom: 40px;
+}
+
+/* CONTACT */
+
+.contact {
+  padding-top: 60px;
+  background-color: #1b322b;
+  color: #ffffff;
+}
+
+.contact a {
+  color: #ffffff;
+}
+
+.contact__wrapper {
+  display: flex;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.contact__text {
+  width: 30%;
+}
+
+.contact__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.contactlink {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+/* FOOTER */
+
+.footer {
+  padding-top: 60px;
+  background-color: #1b322b;
+  color: #ffffff;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
