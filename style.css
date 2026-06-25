@@ -4,7 +4,6 @@
   font-family: "Patrick Hand", cursive;
   font-weight: 400;
   font-style: normal;
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -27,14 +26,27 @@ i {
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 72px;
   letter-spacing: 2px;
 }
 
 h2 {
   font-weight: bold;
   letter-spacing: 1.5px;
+  font-size: 40px;
 }
+
+.btn__secondary {
+  border-radius: 6px;
+  border: none;
+  padding: 8px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+  background-color: #2c463a;
+  color: #d4dab8;
+}
+
 
 /* NAVIGATION */
 
@@ -47,6 +59,7 @@ h2 {
 
 .navigation a {
   color: #ffffff;
+  font-size: 20px;
 }
 
 .header__navlinks {
@@ -69,6 +82,10 @@ h2 {
 
 .navigation__logo {
   letter-spacing: 2px;
+}
+
+.navigation__logo i {
+  font-size: 18px;
 }
 
 .navintro__wrapper--background {
@@ -94,13 +111,22 @@ h2 {
 .intro__text {
   padding: 20px;
   width: 32%;
-  color: #b1c78e;
-  font-size: 18px;
+  color: #d4dab8;
+  font-size: 28px;
 }
 
 .intro__text h1 {
   padding-bottom: 20px;
   color: #ffffff;
+}
+
+.intro__text p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header__navlinks i {
+  font-size: 20px;
 }
 
 /* ABOUT ME */
@@ -114,16 +140,29 @@ h2 {
 .aboutme__wrapper {
   display: flex;
   padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  
+}
+
+.aboutmetree {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .aboutme__textintro {
-  max-width: 28%;
+  min-width: 25%;
+  padding:20px
 }
 
 .aboutme__textintro h2 {
   padding-bottom: 20px;
+}
+
+.aboutme__textintro p {
+  padding-bottom: 20px;
+  font-size: 24px;
 }
 
 .aboutme__highlights {
@@ -133,7 +172,7 @@ h2 {
 
 .highlight {
   padding: 30px;
-  font-size: 12px;
+  font-size: 18px;
   align-items: center;
   text-align: center;
 }
@@ -156,7 +195,7 @@ h2 {
 }
 
 .projects a {
-  color: #b1c78e;
+  color: #d4dab8;
 }
 
 .projects__wrapper {
@@ -183,9 +222,8 @@ h2 {
 
 .projectcard {
   width: 33%;
-  justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
+  padding-right: 0px;
 }
 
 
@@ -224,6 +262,8 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .skill {
@@ -242,6 +282,7 @@ h2 {
   padding-top: 60px;
   background-color: #faf3e2;
   color: #ffffff;
+  font-size: 24px;
 }
 
 .contact a {
@@ -262,7 +303,7 @@ h2 {
 }
 
 .contact__text {
-  width: 30%;
+  width: 22%;
 }
 
 .contact__links {
@@ -278,11 +319,24 @@ h2 {
   padding: 20px 40px;
 }
 
+.contactlink button {
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding: 14px;
+  background-color:#4b6b5c;
+  border: none;
+}
+
+.contactlink i {
+  font-size: 22px;
+}
+
 /* FOOTER */
 
 .footer {
  background-color: #132a22;
  color: #ffffff;
+ font-size: 20px;
 }
 
 .footer__wrapper {
