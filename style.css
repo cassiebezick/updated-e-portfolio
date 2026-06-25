@@ -93,7 +93,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  min-height: 60vh;
+  min-height: 100vh;
 
 }
 
@@ -249,7 +249,7 @@ h2 {
   background-color: #faf3e2;
   color: #1b322b;
   background-image: url("./images/beigesect.png");
-  background-position: top;
+  background-position: top center;
   background-repeat: none;
   min-height: 200;
 }
