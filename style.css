@@ -123,6 +123,7 @@ h2 {
 .intro__text p {
   padding-top: 20px;
   padding-bottom: 20px;
+  letter-spacing: 1.5px;
 }
 
 .header__navlinks i {
@@ -153,7 +154,8 @@ h2 {
 
 .aboutme__textintro {
   min-width: 25%;
-  padding:20px
+  padding: 20px;
+  letter-spacing: 1px;
 }
 
 .aboutme__textintro h2 {
@@ -168,6 +170,7 @@ h2 {
 .aboutme__highlights {
   display: flex;
   padding-left: 30px;
+  
 }
 
 .highlight {
@@ -304,6 +307,7 @@ h2 {
 
 .contact__text {
   width: 22%;
+  letter-spacing: 1px;
 }
 
 .contact__links {
