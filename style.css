@@ -364,43 +364,387 @@ h2 {
 
 /* MEDIA QUERIES */
 
-/* @media (max-width: 768px) {
-  .navigation,
-  .header__navlinks ul,
-  .aboutme__wrapper,
-  .aboutme__highlights,
-  .projects__grid,
-  .skills__grid,
-  .contact__wrapper,
-  .contact__links {
-    flex-direction: column;
-    align-items: center;
-  } */
 
 /* EXTRA SMALL DEVICES
 @media (max-width: 600px) {
     
   }
 
-/*SMALL DEVICES
+/* SMALL DEVICES */
 @media (min-width: 600px) {
-    
+html {
+    display: table;
+    margin: auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    max-width: 600px;
+    display: table-cell;
+    vertical-align: middle;
   }
 
-/*MEDIUM DEVICES
+h2 {
+  letter-spacing: 1.1px;
+  font-size: 24px;
+  }
+
+.navintro__wrapper--background {
+  min-height: 70vh;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0;;
+  }
+
+.aboutme__tree {
+    width: 20px;
+  }
+
+.aboutme__textintro {
+  min-width: 25%;
+  width: 100%;
+  padding: 0px;
+  letter-spacing: .5px;
+}
+
+.aboutme__textintro h2 {
+  padding-bottom: 8px;
+}
+
+.aboutme {
+  padding-top: 0px;
+}
+
+.aboutme__textintro p {
+  padding-bottom: 12px;
+  font-size: 14px;
+}
+
+.aboutme__highlights {
+  display: flex;
+  padding-left: 10px;
+}
+
+.highlight {
+  padding: 6px;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+}
+
+.highlight h3 {
+  font-weight: 600;
+  line-height: 2;
+}
+
+.contact {
+    font-size: 14px;
+}
+
+.contact__text {
+  width: 20%;
+  letter-spacing: 1px;
+}
+
+.contact__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+
+.contactlink {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+
+.contactlink button {
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 14px;
+  background-color: #4b6b5c;
+  border: none;
+}
+
+.contactlink i {
+  font-size: 20px;
+}
+
+.aboutmehighlight__image {
+  width: 80px;
+}
+
+.projectcard {
+  max-width: 350px;
+}
+
+.contact__wrapper {
+  min-height: 30px;
+}
+}  
+
+
+/*MEDIUM DEVICES*/
 @media (min-width: 768px) {
     
+html {
+    display: table;
+    margin: auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    max-width: 768px;
+    display: table-cell;
+    vertical-align: middle;
   }
 
-/* LARGE DEVICES 
+h2 {
+  letter-spacing: 1.1px;
+  font-size: 24px;
+  }
+
+.container {
+    max-width: 768px;
+    width: 100%;
+    margin: 0;;
+  }
+
+.aboutme__tree {
+    width: 60px;
+  }
+
+.aboutme__textintro {
+  min-width: 25%;
+  width: 100%;
+  padding: 0px;
+  letter-spacing: .5px;
+}
+
+.aboutme__textintro h2 {
+  padding-bottom: 8px;
+}
+
+.aboutme {
+  padding-top: 0px;
+}
+
+.aboutme__textintro p {
+  padding-bottom: 12px;
+  font-size: 14px;
+}
+
+.aboutme__highlights {
+  display: flex;
+  padding-left: 10px;
+}
+
+.highlight {
+  padding: 6px;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+}
+
+.highlight h3 {
+  font-weight: 600;
+  line-height: 2;
+}
+
+.contact {
+    font-size: 14px;
+}
+
+.contact__text {
+  width: 20%;
+  letter-spacing: 1px;
+}
+
+.contact__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+
+.contactlink {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+
+.contactlink button {
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 14px;
+  background-color: #4b6b5c;
+  border: none;
+}
+
+.contactlink i {
+  font-size: 20px;
+}
+
+.aboutmehighlight__image {
+  width: 80px;
+}
+
+.projectcard {
+  max-width: 350px;
+}
+
+.contact__wrapper {
+  min-height: 30px;
+}
+}  
+
+/* LARGE DEVICES */
 @media (min-width: 992px) {
-    
-  }  
+html {
+    display: table;
+    margin: auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    max-width: 1000px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+h2 {
+  letter-spacing: 1.5px;
+  font-size: 30px;
+  }
+
+.container {
+    max-width: 1550px;
+    width: 100%;
+    margin: 0;;
+  }
+
+.aboutme__tree {
+    width: 80px;
+  }
+
+.aboutme__textintro {
+  min-width: 20%;
+  width: 100%;
+  padding: 10px;
+  letter-spacing: .5px;
+}
+
+.aboutme {
+  padding-top: 0px;
+}
+
+.aboutme__textintro p {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.aboutme__highlights {
+  display: flex;
+  padding-left: 10px;
+}
+
+.highlight {
+  padding: 10px;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+}
+
+.highlight h3 {
+  font-weight: 600;
+  line-height: 2;
+}
+
+.contact {
+    font-size: 16px;
+}
+
+.contact__text {
+  width: 20%;
+  letter-spacing: 1px;
+}
+
+.contact__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.contactlink {
+  display: flex;
+  align-items: center;
+  padding: 8px 8px;
+}
+
+.contactlink button {
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding: 14px;
+  background-color: #4b6b5c;
+  border: none;
+}
+
+.contactlink i {
+  font-size: 22px;
+}
+
+.aboutmehighlight__image {
+  width: 100px;
+}
+
+.projectcard {
+  max-width: 450px;
+}
+
+.contact__wrapper {
+  min-height: 300px;
+}
+}  
 
 /* EXTRA LARGE DEVICES*/
 @media (min-width: 1200px) {
 
-  body {
-    max-width: 1500px;
+html {
+    display: table;
+    margin: auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    max-width: 990px;
+    display: table-cell;
+    vertical-align: middle;
   }
+
+.container {
+    max-width: 990px;
+    width: 100%;
+    margin: 0;
   }
+
+.aboutmehighlight__image {
+  width: 130px;
+}
+}
