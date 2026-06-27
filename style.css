@@ -9,9 +9,17 @@
   box-sizing: border-box;
 }
 
+
 html {
-  scroll-behavior: smooth;
-}
+    display: table;
+    margin: auto;
+    scroll-behavior: smooth;
+  }
+
+html,
+body {
+    height: 100%;
+  }
 
 body {
   background-color: #132a22;
@@ -379,8 +387,6 @@ h2 {
 @media (min-width: 300px) and (max-width: 600px) {
   body {
     max-width: 600px;
-    display: table-cell;
-    vertical-align: middle;
   }
 
   h1 {
@@ -602,10 +608,9 @@ h2 {
 /**/
 
 @media (min-width: 600px) and (max-width: 768px) {
+
   body {
-    max-width: 600px;
-    display: table-cell;
-    vertical-align: middle;
+    max-width: 768px;
   }
 
   h1 {
@@ -725,7 +730,7 @@ h2 {
 
 /* PROJECTS */ /*SMALL DEVICES*/
     .projects {
-      padding-top: 30px;
+      padding-top: 40px;
       min-height: 200px;
     }
 
@@ -743,21 +748,24 @@ h2 {
 
     .projects__header {
       padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
 /* SKILLS *//*SMALL DEVICES*/
     .skills {
-      padding-top: 30px;
+      padding-top: 40px;
       min-height: 100px;
     }
 
     .skills__wrapper {
-      padding: 20px;
+      padding: 40px;
     }
 
     .skills__grid {
       padding-left: 10px;
       padding-right: 10px;
+      padding-top: 10px;
     }
 
     .skills__wrapper h2 {
@@ -771,22 +779,12 @@ h2 {
     }
 
     .contact__wrapper {
-      padding: 20px;
-      padding-left: 10px;
-      padding-right: 4=10px;
-      padding-top: 30px;
-      min-height: 300px;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
+      min-height: 200px;
+
     }
 
     .contact__text {
-      padding-bottom: 20px;
-      padding-top: 20px;
-      width: 20%;
-      letter-spacing: 1px;
+      display: none;
     }
 
     .contact__links {
@@ -836,36 +834,25 @@ h2 {
 /**/
 
 @media (min-width: 768px) and (max-width: 992px) {
-  html {
-    display: table;
-    margin: auto;
-  }
-
-  html,
-  body {
-    height: 100%;
-  }
 
   body {
-    max-width: 768px;
-    display: table-cell;
-    vertical-align: middle;
+    max-width: 992px;
   }
 
   h2 {
     letter-spacing: 1.1px;
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .container {
-    max-width: 768px;
+    max-width: 992px;
     width: 100%;
     margin: 0;
   }
 
 /* ABOUT ME *//* MEDIUM DEVICES */
   .aboutme {
-    padding-top: 0px;
+    padding-top: 0px;;
   }
 
   .aboutme__tree {
@@ -874,18 +861,16 @@ h2 {
 
   .aboutme__textintro {
     min-width: 25%;
-    width: 100%;
-    padding: 0px;
-    letter-spacing: 0.5px;
+    padding: 0px 40px;
   }
 
   .aboutme__textintro p {
-    padding-bottom: 12px;
-    font-size: 14px;
+    padding-bottom: 24px;
+    font-size: 18px;
   }
 
   .aboutme__textintro h2 {
-    padding-bottom: 8px;
+    padding-bottom: 20px;
   }
 
   .aboutme__highlights {
@@ -899,19 +884,30 @@ h2 {
 
   .highlight {
     padding: 6px;
-    font-size: 12px;
+    font-size: 14px;
     align-items: center;
     text-align: center;
   }
 
   .highlight h3 {
     font-weight: 600;
-    line-height: 2;
+    line-height: 1.5;
   }
 
 /* PROJECTS */ /* MEDIUM DEVICES */
+  .projects__header {
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
   .projectcard {
-    max-width: 350px;
+    max-width: 450px;
+  }
+
+/* SKILLS */ /* MEDIUM DEVICES */
+
+  .skills__wrapper {
+    padding: 10px 80px;
   }
 
 /* CONTACT */ /* MEDIUM DEVICES */
@@ -920,17 +916,28 @@ h2 {
   }
 
   .contact__wrapper {
-    min-height: 30px;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
   }
 
   .contact__text {
-    width: 20%;
-    letter-spacing: 1px;
+    width: 25%;
+    letter-spacing: 1.2px;
   }
 
+  .contact__text h2 {
+    padding-bottom: 20px;
+  }
+
+  .contact__text p {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
   .contact__links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-beween;
     align-items: center;
     padding: 2px;
   }
@@ -962,29 +969,12 @@ h2 {
 /* LARGE DEVICES */ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
 /**/ /**/
 @media (min-width: 992px) and (max-width: 1200px) {
-  html {
-    display: table;
-    margin: auto;
-  }
-
-  html,
   body {
-    height: 100%;
-  }
-
-  body {
-    max-width: 1000px;
-    display: table-cell;
-    vertical-align: middle;
-  }
-
-  h2 {
-    letter-spacing: 1.5px;
-    font-size: 30px;
+    max-width: 1200px;
   }
 
   .container {
-    max-width: 1550px;
+    max-width: 1200px;
     width: 100%;
     margin: 0;
   }
@@ -1001,30 +991,26 @@ h2 {
   .aboutme__textintro {
     min-width: 20%;
     width: 100%;
-    padding: 10px;
-    letter-spacing: 0.5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    letter-spacing: 0.6px;
   }
 
   .aboutme__textintro p {
-    padding-bottom: 20px;
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .aboutme__highlights {
-    display: flex;
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   .highlight {
-    padding: 10px;
-    font-size: 18px;
-    align-items: center;
-    text-align: center;
+    padding: 20px;
   }
 
   .highlight h3 {
     font-weight: 600;
-    line-height: 2;
+    line-height: 1.8;
   }
 
   .aboutmehighlight__image {
@@ -1032,22 +1018,35 @@ h2 {
   }
 
 /* PROJECTS */ /* LARGE DEVICES */
-  .projectcard {
+.projects__header {
+  padding-top: 0px;
+  align-items: center;
+}  
+
+.projectcard {
     max-width: 450px;
   }
 
+/* SKILLS */ /* LARGE DEVICES */
+.skills {
+  padding: 60px 80px;
+}
+
 /* CONTACT */ /* LARGE DEVICES */
   .contact {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .contact__wrapper {
-    min-height: 300px;
+    min-height: 380px;
   }
 
   .contact__text {
     width: 20%;
     letter-spacing: 1px;
+    padding-right: 40px;
+    align-items: center;
+    justify-content: center;
   }
 
   .contact__links {
@@ -1089,31 +1088,18 @@ h2 {
 /* EXTRA LARGE DEVICES*/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
 /**/ /**/
 @media (min-width: 1200px) and (max-width: 3000px) {
-  html {
-    display: table;
-    margin: auto;
-  }
-
-  html,
   body {
-    height: 100%;
-  }
-
-  body {
-    max-width: 1500px;
-    display: table-cell;
-    vertical-align: middle;
+    max-width: 1580px;
   }
 
   .container {
-    max-width: 1500px;
-    width: 100%;
-    margin: 0;
+    max-width: 1580px;
   }
 
   .btn__secondary {
-    font-size: 20px;
-    padding: 12px 28px;
+    font-size: 24px;
+    padding: 12px 36px;
+    letter-spacing: 2.5px;
   }
   
 /* INTRO */ /* EXTRA LARGE DEVICES*/
@@ -1121,8 +1107,13 @@ h2 {
     padding-top: 130px;
   }
 
+  .intro h1{
+    font-size: 82px;
+  }
+
   .intro p {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+    font-size: 36px;
   }
 
 /* ABOUT ME */ /* EXTRA LARGE DEVICES*/
