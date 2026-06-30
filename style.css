@@ -383,18 +383,19 @@ h2 {
 
 /**/
 /* EXTRA SMALL DEVICES */ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
+/* OPTIMIZED FOR 6.3inch iPhone Screen */ /**/
 /**/
 @media (min-width: 300px) and (max-width: 600px) {
   body {
-    max-width: 600px;
+    max-width: 393px;
   }
 
   h1 {
-    font-size: 54px;
+    font-size: 44px;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .btn__secondary {
@@ -407,15 +408,19 @@ h2 {
   }
 
   .navigation a {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .header__navlinks li {
     padding: 10px;
   }
 
+ .header__navlinks i {
+    display: none;
+  }
+
   .navigation__logo i {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .navintro__wrapper--background {
@@ -423,7 +428,7 @@ h2 {
     }
 
   .container {
-      max-width: 600px;
+      max-width: 393px;
       width: 100%;
       margin: 0;
   }
@@ -436,7 +441,7 @@ h2 {
     .intro__text {
       padding: 10px;
       max-width: 350px;
-      font-size: 20px;
+      font-size: 18px;
     }
 
     .intro__text h1 {
@@ -491,18 +496,6 @@ h2 {
       display: none;
     }
 
-    .highlight {
-      padding: 6px;
-      font-size: 12px;
-      align-items: center;
-      text-align: center;
-    }
-
-    .highlight h3 {
-      font-weight: 400;
-      line-height: 2;
-    }
-
 /* PROJECTS */ /* EXTRA SMALL DEVICES*/
     .projects {
       padding-top: 60px;
@@ -532,7 +525,7 @@ h2 {
     }
 
     .skills__wrapper {
-      padding: 20px;
+      padding: 10px;
     }
 
     .skills__wrapper h2 {
@@ -540,11 +533,14 @@ h2 {
     }
     
     .skills__grid {
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 0px;
+      padding-right: 0px;
       padding-top: 20px;
     }
 
+    .skill {
+      padding: 3px;
+    }
 
 /* CONTACT */ /* EXTRA SMALL DEVICES*/
     .contact {
@@ -579,7 +575,7 @@ h2 {
     .contactlink button {
       font-size: 14px;
       letter-spacing: 2px;
-      padding: 14px;
+      padding-left: 10px;
       background-color: #4b6b5c;
       border: none;
     }
