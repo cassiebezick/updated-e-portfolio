@@ -9,17 +9,16 @@
   box-sizing: border-box;
 }
 
-
 html {
-    display: table;
-    margin: auto;
-    scroll-behavior: smooth;
-  }
+  display: table;
+  margin: auto;
+  scroll-behavior: smooth;
+}
 
 html,
 body {
-    height: 100%;
-  }
+  height: 100%;
+}
 
 body {
   background-color: #132a22;
@@ -368,7 +367,6 @@ h2 {
   padding-right: 40px;
 }
 
-
 /**/
 /**/
 /**/
@@ -376,7 +374,7 @@ h2 {
 /**/
 /**/
 /**/
-/* EXTRA SMALL, SMALL, MEDIUM, LARGE, EXTRA LARGE DEVICES /**/ 
+/* EXTRA SMALL, SMALL, MEDIUM, LARGE, EXTRA LARGE DEVICES /**/
 /**/
 /**/
 /**/
@@ -402,7 +400,11 @@ h2 {
     font-size: 14px;
   }
 
-/* NAVIGATION */ /* EXTRA SMALL DEVICES*/
+  .navintro__wrapper--background {
+    background-position: top left;
+  }
+
+  /* NAVIGATION */ /* EXTRA SMALL DEVICES*/
   .navigation {
     padding: 8px;
   }
@@ -415,7 +417,7 @@ h2 {
     padding: 10px;
   }
 
- .header__navlinks i {
+  .header__navlinks i {
     display: none;
   }
 
@@ -424,187 +426,184 @@ h2 {
   }
 
   .navintro__wrapper--background {
-      min-height: 80vh;
-    }
+    min-height: 80vh;
+  }
 
   .container {
-      max-width: 393px;
-      width: 100%;
-      margin: 0;
+    max-width: 393px;
+    width: 100%;
+    margin: 0;
   }
 
-/* INTRO  */ /* EXTRA SMALL DEVICES*/
-    .intro {
-      padding-top: 80px;
-    }
-
-    .intro__text {
-      padding: 10px;
-      max-width: 350px;
-      font-size: 18px;
-    }
-
-    .intro__text h1 {
-      padding-bottom: 8px;
-    }
-
-    .intro__text p {
-      padding-top: 10px;
-      padding-bottom: 30px;
-    }
-
-/* ABOUT ME */ /* EXTRA SMALL DEVICES*/
-    .aboutme {
-      padding-top: 0px;
-    }
-    .aboutme__wrapper {
-      padding: 10px;
-      padding-left: 10px;
-      padding-right: 0px;
-    }
-
-    .aboutmetree {
-      display: none;
-      width: 20px;
-    }
-
-    .aboutme__textintro {
-      min-width: 25%;
-      padding: 10px;
-      letter-spacing: 0.5px;
-    }
-
-    .aboutme__textintro h2 {
-      padding-bottom: 10px;
-    }
-
-    .aboutme__textintro p {
-      padding-bottom: 16px;
-      padding-top: 12px;
-      font-size: 16px;
-    }
-
-    .aboutme__highlights {
-      padding-left: 20px;
-    }
-
-    .aboutmehighlight__image {
-      display: none;
-    }
-
-    .aboutme__highlights {
-      display: none;
-    }
-
-/* PROJECTS */ /* EXTRA SMALL DEVICES*/
-    .projects {
-      padding-top: 60px;
-      min-height: 200px;
-    }
-
-    .projects__wrapper {
-      padding: 20px;
-      padding-left: 10px;
-      padding-right: 10px;
-      min-height: 200px;
-    }
-
-    .projects__grid {
-      align-items: center;
-      justify-content: center;
-    }
-
-    .projects__header {
-      padding-bottom: 20px;
-    }
-
-/* SKILLS */ /* EXTRA SMALL DEVICES*/
-    .skills {
-      padding-top: 60px;
-      min-height: 100px;
-    }
-
-    .skills__wrapper {
-      padding: 10px;
-    }
-
-    .skills__wrapper h2 {
-      padding-bottom: 20px;
-    }
-    
-    .skills__grid {
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-top: 20px;
-    }
-
-    .skill {
-      padding: 3px;
-    }
-
-/* CONTACT */ /* EXTRA SMALL DEVICES*/
-    .contact {
-      padding-top: 30px;
-      font-size: 14px;
-    }
-
-    .contact__wrapper {
-      padding: 20px;
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 30px;
-      min-height: 180px;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-
-    .contact__text {
-      display: none;
-    }
-
-    .contact__links {
-      padding: 16px;
-    }
-
-    .contactlink {
-      padding: 4px;
-    }
-
-    .contactlink button {
-      font-size: 14px;
-      letter-spacing: 2px;
-      padding-left: 10px;
-      background-color: #4b6b5c;
-      border: none;
-    }
-
-    .contactlink i {
-      font-size: 20px;
-    }
-
-/* FOOTER */ /* EXTRA SMALL DEVICES*/
-    .footer__wrapper {
-      padding: 20px;
-      padding-left: 40px;
-      padding-right: 40px;
-    }
-
-    h2 {
-      letter-spacing: 1.3px;
-      font-size: 20px;
-    }
+  /* INTRO  */ /* EXTRA SMALL DEVICES*/
+  .intro {
+    padding-top: 80px;
   }
 
+  .intro__text {
+    padding: 10px;
+    max-width: 350px;
+    font-size: 18px;
+  }
 
+  .intro__text h1 {
+    padding-bottom: 8px;
+  }
+
+  .intro__text p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  /* ABOUT ME */ /* EXTRA SMALL DEVICES*/
+  .aboutme {
+    padding-top: 0px;
+  }
+  .aboutme__wrapper {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+
+  .aboutmetree {
+    display: none;
+    width: 20px;
+  }
+
+  .aboutme__textintro {
+    min-width: 25%;
+    padding: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  .aboutme__textintro h2 {
+    padding-bottom: 10px;
+  }
+
+  .aboutme__textintro p {
+    padding-bottom: 16px;
+    padding-top: 12px;
+    font-size: 16px;
+  }
+
+  .aboutme__highlights {
+    padding-left: 20px;
+  }
+
+  .aboutmehighlight__image {
+    display: none;
+  }
+
+  .aboutme__highlights {
+    display: none;
+  }
+
+  /* PROJECTS */ /* EXTRA SMALL DEVICES*/
+  .projects {
+    padding-top: 60px;
+    min-height: 200px;
+  }
+
+  .projects__wrapper {
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 200px;
+  }
+
+  .projects__grid {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects__header {
+    padding-bottom: 20px;
+  }
+
+  /* SKILLS */ /* EXTRA SMALL DEVICES*/
+  .skills {
+    padding-top: 60px;
+    min-height: 100px;
+  }
+
+  .skills__wrapper {
+    padding: 10px;
+  }
+
+  .skills__wrapper h2 {
+    padding-bottom: 20px;
+  }
+
+  .skills__grid {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+  }
+
+  .skill {
+    padding: 3px;
+  }
+
+  /* CONTACT */ /* EXTRA SMALL DEVICES*/
+  .contact {
+    padding-top: 30px;
+    font-size: 14px;
+  }
+
+  .contact__wrapper {
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    min-height: 180px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact__text {
+    display: none;
+  }
+
+  .contact__links {
+    padding: 16px;
+  }
+
+  .contactlink {
+    padding: 4px;
+  }
+
+  .contactlink button {
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    background-color: #4b6b5c;
+    border: none;
+  }
+
+  .contactlink i {
+    font-size: 20px;
+  }
+
+  /* FOOTER */ /* EXTRA SMALL DEVICES*/
+  .footer__wrapper {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  h2 {
+    letter-spacing: 1.3px;
+    font-size: 20px;
+  }
+}
 
 /**/
 /* SMALL DEVICES */ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
 /**/
 
 @media (min-width: 600px) and (max-width: 768px) {
-
   body {
     max-width: 768px;
   }
@@ -621,7 +620,7 @@ h2 {
     font-size: 14px;
   }
 
-/* NAVIGATION */ /*SMALL DEVICES*/
+  /* NAVIGATION */ /*SMALL DEVICES*/
   .navigation {
     padding: 8px;
   }
@@ -639,198 +638,191 @@ h2 {
   }
 
   .navintro__wrapper--background {
-      min-height: 70vh;
+    min-height: 70vh;
   }
 
   .container {
-      max-width: 600px;
-      width: 100%;
-      margin: 0;
+    max-width: 600px;
+    width: 100%;
+    margin: 0;
   }
 
-/* INTRO  */ /*SMALL DEVICES*/
-    .intro {
-      padding-top: 20px;
-    }
-
-    .intro__text {
-      padding: 10px;
-      max-width: 300px;
-      font-size: 20px;
-    }
-
-    .intro__text h1 {
-      padding-bottom: 0px;
-    }
-
-    .intro__text p {
-      padding-top: 10px;
-      padding-bottom: 25px;
-    }
-
-/* ABOUT ME */ /*SMALL DEVICES*/
-    .aboutme {
-      padding-top: 0px;
-    }
-
-    .aboutme__wrapper {
-      padding: 10px;
-      padding-left: 10px;
-      padding-right: 0px;
-    }
-
-    .aboutmetree {
-      display: none;
-      width: 20px;
-    }
-
-    .aboutme__textintro {
-      min-width: 25%;
-      padding: 10px;
-      letter-spacing: 0.5px;
-    }
-
-    .aboutme__textintro h2 {
-      padding-bottom: 10px;
-    }
-
-    .aboutme__textintro p {
-      padding-bottom: 12px;
-      font-size: 14px;
-    }
-
-    .aboutme__highlights {
-      padding-left: 20px;
-    }
-
-    .aboutmehighlight__image {
-      width: 65px;
-    }
-
-    .aboutme__highlights {
-      display: flex;
-      padding-left: 10px;
-    }
-
-    .highlight {
-      padding: 6px;
-      font-size: 12px;
-      align-items: center;
-      text-align: center;
-    }
-
-    .highlight h3 {
-      font-weight: 400;
-      line-height: 2;
-    }
-
-/* PROJECTS */ /*SMALL DEVICES*/
-    .projects {
-      padding-top: 40px;
-      min-height: 200px;
-    }
-
-    .projects__wrapper {
-      padding: 20px;
-      padding-left: 10px;
-      padding-right: 10px;
-      min-height: 200px;
-    }
-
-    .projects__grid {
-      align-items: center;
-      justify-content: center;
-    }
-
-    .projects__header {
-      padding-bottom: 20px;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-
-/* SKILLS *//*SMALL DEVICES*/
-    .skills {
-      padding-top: 40px;
-      min-height: 100px;
-    }
-
-    .skills__wrapper {
-      padding: 40px;
-    }
-
-    .skills__grid {
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 10px;
-    }
-
-    .skills__wrapper h2 {
-      padding-bottom: 20px;
-    }
-
-/* CONTACT */ /*SMALL DEVICES*/
-    .contact {
-      padding-top: 30px;
-      font-size: 14px;
-    }
-
-    .contact__wrapper {
-      min-height: 200px;
-
-    }
-
-    .contact__text {
-      display: none;
-    }
-
-    .contact__links {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 2px;
-    }
-
-    .contactlink {
-      display: flex;
-      align-items: center;
-      padding: 4px;
-    }
-
-    .contactlink button {
-      font-size: 14px;
-      letter-spacing: 2px;
-      padding: 14px;
-      background-color: #4b6b5c;
-      border: none;
-    }
-
-    .contactlink i {
-      font-size: 20px;
-    }
-
-/* FOOTER */ /*SMALL DEVICES*/
-    .footer__wrapper {
-      padding: 20px;
-      padding-left: 40px;
-      padding-right: 40px;
-    }
-    h2 {
-      letter-spacing: 1.3px;
-      font-size: 20px;
-    }
+  /* INTRO  */ /*SMALL DEVICES*/
+  .intro {
+    padding-top: 20px;
   }
 
+  .intro__text {
+    padding: 10px;
+    max-width: 300px;
+    font-size: 20px;
+  }
 
+  .intro__text h1 {
+    padding-bottom: 0px;
+  }
 
+  .intro__text p {
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
 
+  /* ABOUT ME */ /*SMALL DEVICES*/
+  .aboutme {
+    padding-top: 0px;
+  }
 
+  .aboutme__wrapper {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+
+  .aboutmetree {
+    display: none;
+    width: 20px;
+  }
+
+  .aboutme__textintro {
+    min-width: 25%;
+    padding: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  .aboutme__textintro h2 {
+    padding-bottom: 10px;
+  }
+
+  .aboutme__textintro p {
+    padding-bottom: 12px;
+    font-size: 14px;
+  }
+
+  .aboutme__highlights {
+    padding-left: 20px;
+  }
+
+  .aboutmehighlight__image {
+    width: 65px;
+  }
+
+  .aboutme__highlights {
+    display: flex;
+    padding-left: 10px;
+  }
+
+  .highlight {
+    padding: 6px;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .highlight h3 {
+    font-weight: 400;
+    line-height: 2;
+  }
+
+  /* PROJECTS */ /*SMALL DEVICES*/
+  .projects {
+    padding-top: 40px;
+    min-height: 200px;
+  }
+
+  .projects__wrapper {
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 200px;
+  }
+
+  .projects__grid {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects__header {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* SKILLS */ /*SMALL DEVICES*/
+  .skills {
+    padding-top: 40px;
+    min-height: 100px;
+  }
+
+  .skills__wrapper {
+    padding: 40px;
+  }
+
+  .skills__grid {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+
+  .skills__wrapper h2 {
+    padding-bottom: 20px;
+  }
+
+  /* CONTACT */ /*SMALL DEVICES*/
+  .contact {
+    padding-top: 30px;
+    font-size: 14px;
+  }
+
+  .contact__wrapper {
+    min-height: 200px;
+  }
+
+  .contact__text {
+    display: none;
+  }
+
+  .contact__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+  }
+
+  .contactlink {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+  }
+
+  .contactlink button {
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 14px;
+    background-color: #4b6b5c;
+    border: none;
+  }
+
+  .contactlink i {
+    font-size: 20px;
+  }
+
+  /* FOOTER */ /*SMALL DEVICES*/
+  .footer__wrapper {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  h2 {
+    letter-spacing: 1.3px;
+    font-size: 20px;
+  }
+}
 
 /**/
 /*MEDIUM DEVICES*/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
 /**/
 
 @media (min-width: 768px) and (max-width: 992px) {
-
   body {
     max-width: 992px;
   }
@@ -846,9 +838,9 @@ h2 {
     margin: 0;
   }
 
-/* ABOUT ME *//* MEDIUM DEVICES */
+  /* ABOUT ME */ /* MEDIUM DEVICES */
   .aboutme {
-    padding-top: 0px;;
+    padding-top: 0px;
   }
 
   .aboutme__tree {
@@ -890,7 +882,7 @@ h2 {
     line-height: 1.5;
   }
 
-/* PROJECTS */ /* MEDIUM DEVICES */
+  /* PROJECTS */ /* MEDIUM DEVICES */
   .projects__header {
     padding-left: 40px;
     padding-right: 20px;
@@ -900,13 +892,13 @@ h2 {
     max-width: 450px;
   }
 
-/* SKILLS */ /* MEDIUM DEVICES */
+  /* SKILLS */ /* MEDIUM DEVICES */
 
   .skills__wrapper {
     padding: 10px 80px;
   }
 
-/* CONTACT */ /* MEDIUM DEVICES */
+  /* CONTACT */ /* MEDIUM DEVICES */
   .contact {
     font-size: 14px;
   }
@@ -957,10 +949,6 @@ h2 {
   }
 }
 
-
-
-
-
 /**/ /**/
 /* LARGE DEVICES */ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
 /**/ /**/
@@ -975,7 +963,7 @@ h2 {
     margin: 0;
   }
 
-/* ABOUT ME */ /* LARGE DEVICES */
+  /* ABOUT ME */ /* LARGE DEVICES */
   .aboutme {
     padding-top: 0px;
   }
@@ -1013,22 +1001,22 @@ h2 {
     width: 100px;
   }
 
-/* PROJECTS */ /* LARGE DEVICES */
-.projects__header {
-  padding-top: 0px;
-  align-items: center;
-}  
+  /* PROJECTS */ /* LARGE DEVICES */
+  .projects__header {
+    padding-top: 0px;
+    align-items: center;
+  }
 
-.projectcard {
+  .projectcard {
     max-width: 450px;
   }
 
-/* SKILLS */ /* LARGE DEVICES */
-.skills {
-  padding: 60px 80px;
-}
+  /* SKILLS */ /* LARGE DEVICES */
+  .skills {
+    padding: 60px 80px;
+  }
 
-/* CONTACT */ /* LARGE DEVICES */
+  /* CONTACT */ /* LARGE DEVICES */
   .contact {
     font-size: 24px;
   }
@@ -1076,15 +1064,6 @@ h2 {
   }
 }
 
-
-
-
-
-
-
-
-
-
 /**/ /**/
 /* EXTRA LARGE DEVICES*/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
 /**/ /**/
@@ -1102,13 +1081,13 @@ h2 {
     padding: 12px 36px;
     letter-spacing: 2.5px;
   }
-  
-/* INTRO */ /* EXTRA LARGE DEVICES*/
+
+  /* INTRO */ /* EXTRA LARGE DEVICES*/
   .intro__wrapper {
     padding-top: 130px;
   }
 
-  .intro h1{
+  .intro h1 {
     font-size: 82px;
   }
 
@@ -1117,7 +1096,7 @@ h2 {
     font-size: 32px;
   }
 
-/* ABOUT ME */ /* EXTRA LARGE DEVICES*/
+  /* ABOUT ME */ /* EXTRA LARGE DEVICES*/
   .aboutmehighlight__image {
     width: 130px;
   }
@@ -1126,7 +1105,7 @@ h2 {
     padding-left: 54px;
   }
 
-/* PROJECTS */ /* EXTRA LARGE DEVICES*/
+  /* PROJECTS */ /* EXTRA LARGE DEVICES*/
   .projects__wrapper {
     padding: 40px 60px;
   }
@@ -1140,7 +1119,7 @@ h2 {
     font-size: 18px;
   }
 
-/*SKILLS*/ /* EXTRA LARGE DEVICES*/
+  /*SKILLS*/ /* EXTRA LARGE DEVICES*/
   .skills__wrapper {
     padding-left: 80px;
   }
